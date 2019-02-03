@@ -1,0 +1,2 @@
+OgreXmlConverter.exe spruce_3_lod_mesh.xml spruce_3_lod.mesh
+OgreXmlConverter.exe spruce_3_lod_skeleton.xml spruce_3_lod.skeleton

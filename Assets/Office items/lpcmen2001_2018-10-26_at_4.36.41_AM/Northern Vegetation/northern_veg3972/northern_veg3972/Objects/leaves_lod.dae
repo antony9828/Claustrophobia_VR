@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <authoring_tool>Lightwave 9.5</authoring_tool>
+        </contributor>
+        <created>2009-10-03T13:47:28Z</created>
+        <modified>2009-10-03T13:47:28Z</modified>
+        <unit meter="1"></unit>
+        <up_axis>Y_UP</up_axis>
+    </asset>
+    <library_animations></library_animations>
+    <library_cameras></library_cameras>
+    <library_lights></library_lights>
+    <library_images>
+        <image id="leaves_DF" name="leaves_DF">
+            <init_from>file:///D:/3d/3d-daten/3D/3D-Objekte/swen/vegetation/Pack 1 Models/Objects/leaves_DF.tga</init_from>
+        </image>
+    </library_images>
+    <library_materials>
+        <material id="leaves_DF_tga_Smoothing" name="leaves_DF_tga_Smoothing">
+            <instance_effect url="#leaves_DF_tga_Smoothing-fx"></instance_effect>
+        </material>
+    </library_materials>
+    <library_effects>
+        <effect id="leaves_DF_tga_Smoothing-fx">
+            <profile_COMMON>
+                <newparam sid="leaves_DF-surface">
+                    <surface type="2D">
+                        <init_from>leaves_DF</init_from>
+                        <format>A8R8G8B8</format>
+                    </surface>
+                </newparam>
+                <newparam sid="leaves_DF-sampler">
+                    <sampler2D>
+                        <source>leaves_DF-surface</source>
+                        <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+                        <magfilter>LINEAR</magfilter>
+                    </sampler2D>
+                </newparam>
+                <technique sid="common">
+                    <blinn>
+                        <diffuse>
+                            <texture texture="leaves_DF-sampler" texcoord="TEX0"></texture>
+                        </diffuse>
+                    </blinn>
+                </technique>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+    <library_geometries>
+        <geometry id="Mesh_Object_lib" name="Mesh_Object">
+            <mesh>
+                <source id="Mesh_Object_positions" name="position">
+                    <float_array id="Mesh_Object_positions_array" count="24">0.363688 -0.005634 0.158871 
+0.175085 0.052915 0.00562 
+0.121872 0.018338 0.345567 
+0.303334 -0.005634 0.378164 
+-0.363688 0.048577 -0.309302 
+-0.308231 -0.005634 0.287168 
+0.271005 -0.005634 -0.378164 
+-0.082821 0.065634 0.378164 
+</float_array>
+                    <technique_common>
+                        <accessor count="8" offset="0" source="#Mesh_Object_positions_array" stride="3">
+                            <param name="X" type="float"></param>
+                            <param name="Y" type="float"></param>
+                            <param name="Z" type="float"></param>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="leaves_lod_uv_uvmap" name="uvmap">
+                    <float_array id="leaves_lod_uv_uvmap_array" count="28">0.8819 0 
+0.7295 0 
+0.7124 0.4926 
+0.9617 0.2899 
+0.7819 0.4578 
+0.5545 0.0862 
+0.0733 0.1203 
+0 0.909 
+0.1095 0.9023 
+0.8392 1 
+0.7124 0.4926 
+0.5545 0.0862 
+0.3714 0 
+0.0733 0.1203 
+</float_array>
+                    <technique_common>
+                        <accessor count="14" offset="0" source="#leaves_lod_uv_uvmap_array" stride="2">
+                            <param name="S" type="float"></param>
+                            <param name="T" type="float"></param>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="Mesh_Object_vertices">
+                    <input semantic="POSITION" source="#Mesh_Object_positions"></input>
+                </vertices>
+                <polylist count="4" material="leaves_DF_tga_Smoothing">
+                    <input offset="0" semantic="VERTEX" source="#Mesh_Object_vertices"></input>
+                    <input offset="1" semantic="TEXCOORD" source="#leaves_lod_uv_uvmap" set="0"></input>
+                    <vcount>4 4 3 3 </vcount>
+                    <p>0 3 1 2 2 1 3 0 4 7 5 6 2 5 1 4 1 10 6 9 4 8 5 13 7 12 2 11 </p>
+                </polylist>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_controllers></library_controllers>
+    <library_visual_scenes>
+        <visual_scene id="VisualSceneNode" name="Scene">
+            <node id="Mesh_Object" name="Mesh_Object">
+                <instance_geometry url="#Mesh_Object_lib">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="leaves_DF_tga_Smoothing" target="#leaves_DF_tga_Smoothing">
+                                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"></bind_vertex_input>
+                            </instance_material>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#VisualSceneNode"></instance_visual_scene>
+    </scene>
+</COLLADA>

@@ -1,0 +1,9 @@
+texture0="abstract::leaves_DF.dds"
+texture1="abstract::leaves_N.dds"
+texture3="abstract::leaves_Spec.dds"
+
+specular=0.25
+cullface=0
+
+shader="abstract::mesh_diffuse_bumpmap_specular_alphatest.vert", "abstract::mesh_diffuse_bumpmap_specular_alphatest.frag"
+shadowshader="abstract::mesh_shadow_sway.vert","abstract::mesh_shadow.frag"

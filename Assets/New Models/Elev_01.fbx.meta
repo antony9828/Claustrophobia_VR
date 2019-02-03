@@ -1,0 +1,413 @@
+fileFormatVersion: 2
+guid: f47a1d55c71afcb4a8ee2958e319a59c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Arrow Down.Arrow Dow0
+    100002: Arrow Plat
+    100004: Arrow Up.Arrow Up00
+    100006: black hol0
+    100008: black hole
+    100010: Braille
+    100012: Button Pl0
+    100014: Button Pla
+    100016: Button Ri0
+    100018: Button Rin
+    100020: Button.Button001
+    100022: Button006
+    100024: Camera001
+    100026: Camera002
+    100028: Ceiling Bl
+    100030: Ceiling Ti
+    100032: Door Inne0
+    100034: Door Inner
+    100036: Door Oute0
+    100038: Door Outer
+    100040: Door Track
+    100042: //RootNode
+    100044: Elevator J
+    100046: Fabric Pan
+    100048: Floor
+    100050: Floor Numb
+    100052: Foot Reces
+    100054: Fspot001
+    100056: Fspot002
+    100058: Fspot003
+    100060: Fspot004
+    100062: Fspot005
+    100064: Fspot006
+    100066: Gray Bumbp
+    100068: Gray Bumpe
+    100070: Hand Rail .Hand Rail1
+    100072: Hand Rail0
+    100074: Inner Elev
+    100076: Lamp
+    100078: lamp Hous0
+    100080: lamp Hous1
+    100082: lamp Hous2
+    100084: lamp Hous3
+    100086: lamp Hous4
+    100088: lamp Housi
+    100090: Lamp.001
+    100092: Lamp.002
+    100094: Lamp.003
+    100096: Lamp.004
+    100098: Lamp.005
+    100100: Lamp.006
+    100102: LED Displ0
+    100104: LED Displa
+    100106: Metal Plat
+    100108: Metal Wal0
+    100110: Metal Wal1
+    100112: Metal Wal2
+    100114: Metal Wall
+    100116: Omni001
+    100118: Outer Elev
+    100120: Temp Envir
+    100122: Temp Floor
+    100124: Temp Wall
+    100126: Wall Jamb
+    400000: Arrow Down.Arrow Dow0
+    400002: Arrow Plat
+    400004: Arrow Up.Arrow Up00
+    400006: black hol0
+    400008: black hole
+    400010: Braille
+    400012: Button Pl0
+    400014: Button Pla
+    400016: Button Ri0
+    400018: Button Rin
+    400020: Button.Button001
+    400022: Button006
+    400024: Camera001
+    400026: Camera002
+    400028: Ceiling Bl
+    400030: Ceiling Ti
+    400032: Door Inne0
+    400034: Door Inner
+    400036: Door Oute0
+    400038: Door Outer
+    400040: Door Track
+    400042: //RootNode
+    400044: Elevator J
+    400046: Fabric Pan
+    400048: Floor
+    400050: Floor Numb
+    400052: Foot Reces
+    400054: Fspot001
+    400056: Fspot002
+    400058: Fspot003
+    400060: Fspot004
+    400062: Fspot005
+    400064: Fspot006
+    400066: Gray Bumbp
+    400068: Gray Bumpe
+    400070: Hand Rail .Hand Rail1
+    400072: Hand Rail0
+    400074: Inner Elev
+    400076: Lamp
+    400078: lamp Hous0
+    400080: lamp Hous1
+    400082: lamp Hous2
+    400084: lamp Hous3
+    400086: lamp Hous4
+    400088: lamp Housi
+    400090: Lamp.001
+    400092: Lamp.002
+    400094: Lamp.003
+    400096: Lamp.004
+    400098: Lamp.005
+    400100: Lamp.006
+    400102: LED Displ0
+    400104: LED Displa
+    400106: Metal Plat
+    400108: Metal Wal0
+    400110: Metal Wal1
+    400112: Metal Wal2
+    400114: Metal Wall
+    400116: Omni001
+    400118: Outer Elev
+    400120: Temp Envir
+    400122: Temp Floor
+    400124: Temp Wall
+    400126: Wall Jamb
+    2100000: Lamp Shiny
+    2100002: White Self Illum
+    2100004: Control Panel Bu
+    2100006: Stainless
+    2100008: Black
+    2100010: Control Panel
+    2100012: Floor Number Bra
+    2100014: Braille Panel
+    2100016: Stainless1
+    2100018: LED1
+    2100020: Rubber Gray
+    2100022: Triangle
+    2100024: No Name
+    2100026: Shiny Ceiling
+    2100028: Arrow Down
+    2100030: Arrow Up
+    2100032: LED
+    2100034: Fabric
+    2100036: marble
+    2100038: Track
+    2100040: Gray Paint
+    2300000: Arrow Down.Arrow Dow0
+    2300002: Arrow Plat
+    2300004: Arrow Up.Arrow Up00
+    2300006: black hol0
+    2300008: black hole
+    2300010: Braille
+    2300012: Button Pl0
+    2300014: Button Pla
+    2300016: Button Ri0
+    2300018: Button Rin
+    2300020: Button.Button001
+    2300022: Button006
+    2300024: Camera001
+    2300026: Camera002
+    2300028: Ceiling Bl
+    2300030: Ceiling Ti
+    2300032: Door Inne0
+    2300034: Door Inner
+    2300036: Door Oute0
+    2300038: Door Outer
+    2300040: Door Track
+    2300042: Elevator J
+    2300044: Fabric Pan
+    2300046: Floor
+    2300048: Floor Numb
+    2300050: Foot Reces
+    2300052: Fspot001
+    2300054: Fspot002
+    2300056: Fspot003
+    2300058: Fspot004
+    2300060: Fspot005
+    2300062: Fspot006
+    2300064: Gray Bumbp
+    2300066: Gray Bumpe
+    2300068: Hand Rail .Hand Rail1
+    2300070: Hand Rail0
+    2300072: Inner Elev
+    2300074: lamp Hous0
+    2300076: lamp Hous1
+    2300078: lamp Hous2
+    2300080: lamp Hous3
+    2300082: lamp Hous4
+    2300084: lamp Housi
+    2300086: LED Displ0
+    2300088: LED Displa
+    2300090: Metal Plat
+    2300092: Metal Wal0
+    2300094: Metal Wal1
+    2300096: Metal Wal2
+    2300098: Metal Wall
+    2300100: Omni001
+    2300102: Outer Elev
+    2300104: Temp Envir
+    2300106: Temp Floor
+    2300108: Temp Wall
+    2300110: Wall Jamb
+    3300000: Arrow Down.Arrow Dow0
+    3300002: Arrow Plat
+    3300004: Arrow Up.Arrow Up00
+    3300006: black hol0
+    3300008: black hole
+    3300010: Braille
+    3300012: Button Pl0
+    3300014: Button Pla
+    3300016: Button Ri0
+    3300018: Button Rin
+    3300020: Button.Button001
+    3300022: Button006
+    3300024: Camera001
+    3300026: Camera002
+    3300028: Ceiling Bl
+    3300030: Ceiling Ti
+    3300032: Door Inne0
+    3300034: Door Inner
+    3300036: Door Oute0
+    3300038: Door Outer
+    3300040: Door Track
+    3300042: Elevator J
+    3300044: Fabric Pan
+    3300046: Floor
+    3300048: Floor Numb
+    3300050: Foot Reces
+    3300052: Fspot001
+    3300054: Fspot002
+    3300056: Fspot003
+    3300058: Fspot004
+    3300060: Fspot005
+    3300062: Fspot006
+    3300064: Gray Bumbp
+    3300066: Gray Bumpe
+    3300068: Hand Rail .Hand Rail1
+    3300070: Hand Rail0
+    3300072: Inner Elev
+    3300074: lamp Hous0
+    3300076: lamp Hous1
+    3300078: lamp Hous2
+    3300080: lamp Hous3
+    3300082: lamp Hous4
+    3300084: lamp Housi
+    3300086: LED Displ0
+    3300088: LED Displa
+    3300090: Metal Plat
+    3300092: Metal Wal0
+    3300094: Metal Wal1
+    3300096: Metal Wal2
+    3300098: Metal Wall
+    3300100: Omni001
+    3300102: Outer Elev
+    3300104: Temp Envir
+    3300106: Temp Floor
+    3300108: Temp Wall
+    3300110: Wall Jamb
+    4300000: lamp Hous4
+    4300002: lamp Hous3
+    4300004: lamp Hous2
+    4300006: lamp Hous1
+    4300008: lamp Hous0
+    4300010: lamp Housi
+    4300012: Button006
+    4300014: Button Ri0
+    4300016: black hol0
+    4300018: Button Pl0
+    4300020: Floor Numb
+    4300022: Braille
+    4300024: LED Displ0
+    4300026: Fspot006
+    4300028: Fspot005
+    4300030: Fspot004
+    4300032: Fspot003
+    4300034: Fspot002
+    4300036: Fspot001
+    4300038: Hand Rail0
+    4300040: Hand Rail .Hand Rail1
+    4300042: Door Inne0
+    4300044: Gray Bumbp
+    4300046: Door Oute0
+    4300048: Door Inner
+    4300050: Gray Bumpe
+    4300052: Door Outer
+    4300054: Button Pla
+    4300056: Button Rin
+    4300058: black hole
+    4300060: Button.Button001
+    4300062: Arrow Plat
+    4300064: Metal Wal2
+    4300066: Temp Floor
+    4300068: Camera002
+    4300070: Metal Wal1
+    4300072: Metal Wal0
+    4300074: Camera001
+    4300076: Ceiling Ti
+    4300078: Elevator J
+    4300080: Wall Jamb
+    4300082: Arrow Down.Arrow Dow0
+    4300084: Arrow Up.Arrow Up00
+    4300086: LED Displa
+    4300088: Omni001
+    4300090: Temp Wall
+    4300092: Fabric Pan
+    4300094: Temp Envir
+    4300096: Ceiling Bl
+    4300098: Inner Elev
+    4300100: Metal Wall
+    4300102: Foot Reces
+    4300104: Floor
+    4300106: Door Track
+    4300108: Metal Plat
+    4300110: Outer Elev
+    10800000: Lamp
+    10800002: Lamp.001
+    10800004: Lamp.002
+    10800006: Lamp.003
+    10800008: Lamp.004
+    10800010: Lamp.005
+    10800012: Lamp.006
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

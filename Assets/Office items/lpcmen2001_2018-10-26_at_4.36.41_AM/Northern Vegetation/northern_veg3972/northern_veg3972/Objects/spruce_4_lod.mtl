@@ -1,0 +1,566 @@
+newmtl bush_1_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd bush_1_DF.tga
+
+newmtl bush_1_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd bush_1_DF.tga
+
+newmtl bush_2_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd bush_2_DF.tga
+map_bump bush_2_H.tga
+bump bush_2_H.tga
+
+newmtl bush_2_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd bush_2_DF.tga
+
+newmtl grass_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd grass_DF.tga
+map_bump grass_H.tga
+bump grass_H.tga
+
+newmtl grass_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd grass_DF.tga
+
+newmtl grass_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd grass_DF.tga
+
+newmtl grass_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd grass_DF.tga
+
+newmtl leaves_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd leaves_DF.tga
+
+newmtl leaves_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd leaves_DF.tga
+
+newmtl tree_spruce_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_spruce_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_spruce_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_spruce_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_spruce_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_spruce_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_spruce_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_spruce_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_spruce_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_spruce_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_birch_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_birch_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_birch_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_birch_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_birch_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_birch_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_birch_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_birch_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_birch_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_birch_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_birch_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_birch_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_birch_green_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_birch_green_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_birch_green_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_birch_green_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_birch_green_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_birch_green_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_birch_green_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_birch_green_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_birch_green_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_birch_green_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tree_birch_green_leaf_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_birch_green_leaf_DF.tga
+
+newmtl tree_spruce_trunk_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tree_spruce_trunk_DF.tga
+
+newmtl tumbleweed_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tumbleweed_DF.tga
+map_bump tumbleweed_H.tga
+bump tumbleweed_H.tga
+
+newmtl tumbleweed_DF_tga
+Ka 0 0 0
+Kd 0.5882 0.5882 0.5882
+Ks 0 0 0
+Ni 1.5
+Ns 9
+Tf 1 1 1
+d 1
+map_Kd tumbleweed_DF.tga
+

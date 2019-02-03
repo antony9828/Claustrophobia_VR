@@ -1,0 +1,7 @@
+texture0="abstract::tree_spruce_trunk_DF.dds"
+texture1="abstract::tree_spruce_trunk_N.dds"
+
+cullface=0
+
+shader="abstract::mesh_diffuse_bumpmap_alphatest.vert", "abstract::mesh_diffuse_bumpmap_alphatest.frag"
+shadowshader="abstract::mesh_shadow.vert","abstract::mesh_shadow.frag"

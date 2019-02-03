@@ -1,0 +1,99 @@
+<!-- Creator: Ultimate Unwrap3D Pro v3.18 -->
+<!-- Time: Sun Oct 04 19:40:52 2009 -->
+
+<mesh>
+   <submeshes>
+      <submesh material="grass_DF_tga_Smoothing" usesharedvertices="false" use32bitindexes="false" operationtype="triangle_list">
+         <faces count="4">
+            <face v1="0" v2="1" v3="2" />
+            <face v1="3" v2="4" v3="5" />
+            <face v1="4" v2="6" v3="5" />
+            <face v1="6" v2="7" v3="5" />
+         </faces>
+         <geometry vertexcount="8">
+            <vertexbuffer positions="true" normals="true" colours_diffuse="true">
+               <vertex>
+                  <position x="0.140895" y="0.753228" z="0.000000" />
+                  <normal x="-0.945473" y="0.000000" z="0.325700" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.141006" y="0.001758" z="-0.818329" />
+                  <normal x="-0.945473" y="0.000000" z="0.325700" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.422796" y="0.001757" z="0.818329" />
+                  <normal x="-0.945473" y="0.000000" z="0.325700" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.000000" y="0.903940" z="0.048536" />
+                  <normal x="-0.294145" y="-0.000000" z="-0.955761" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.361155" y="0.414470" z="-0.062613" />
+                  <normal x="-0.294145" y="-0.000000" z="-0.955761" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.370337" y="0.402026" z="0.162511" />
+                  <normal x="-0.294145" y="-0.000000" z="-0.955761" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.677257" y="-0.013940" z="-0.159896" />
+                  <normal x="-0.294144" y="-0.000001" z="-0.955761" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.677257" y="-0.013940" z="0.256968" />
+                  <normal x="-0.294144" y="-0.000001" z="-0.955761" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+            </vertexbuffer>
+            <vertexbuffer texture_coord_dimensions_0="2" texture_coords="1">
+               <vertex>
+                  <texcoord u="0.500600" v="0.505000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.015600" v="1.000000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.985600" v="1.000000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.500600" v="0.505000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.241998" v="0.768934" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.765798" v="0.775666" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.015600" v="1.000000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.985600" v="1.000000" />
+               </vertex>
+            </vertexbuffer>
+         </geometry>
+         <boneassignments>
+            <vertexboneassignment vertexindex="0" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="1" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="2" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="3" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="4" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="5" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="6" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="7" boneindex="0" weight="1.000000" />
+         </boneassignments>
+      </submesh>
+   </submeshes>
+   <submeshnames>
+      <submeshname name="Mesh_Object" index="0" />
+   </submeshnames>
+   <skeletonlink name="grass4.skeleton" />
+</mesh>

@@ -1,0 +1,2 @@
+OgreXmlConverter.exe tree_1_lod_mesh.xml tree_1_lod.mesh
+OgreXmlConverter.exe tree_1_lod_skeleton.xml tree_1_lod.skeleton

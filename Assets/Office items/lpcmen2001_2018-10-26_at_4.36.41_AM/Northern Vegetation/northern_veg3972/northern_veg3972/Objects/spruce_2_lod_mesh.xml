@@ -1,0 +1,842 @@
+<!-- Creator: Ultimate Unwrap3D Pro v3.18 -->
+<!-- Time: Sun Oct 04 19:47:39 2009 -->
+
+<mesh>
+   <submeshes>
+      <submesh material="tree_spruce_leaf_DF_tga_Smoothing" usesharedvertices="false" use32bitindexes="false" operationtype="triangle_list">
+         <faces count="8">
+            <face v1="0" v2="1" v3="2" />
+            <face v1="1" v2="3" v3="2" />
+            <face v1="4" v2="5" v3="6" />
+            <face v1="5" v2="7" v3="6" />
+            <face v1="8" v2="9" v3="10" />
+            <face v1="9" v2="11" v3="10" />
+            <face v1="12" v2="13" v3="14" />
+            <face v1="13" v2="15" v3="14" />
+         </faces>
+         <geometry vertexcount="16">
+            <vertexbuffer positions="true" normals="true" colours_diffuse="true">
+               <vertex>
+                  <position x="0.000623" y="1.510998" z="0.354181" />
+                  <normal x="0.999999" y="-0.000000" z="-0.001755" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.005422" y="6.516327" z="-3.091107" />
+                  <normal x="0.999999" y="-0.000000" z="-0.001755" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.000656" y="15.029387" z="0.372576" />
+                  <normal x="0.999999" y="-0.000000" z="-0.001755" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.003265" y="12.512637" z="-1.862015" />
+                  <normal x="0.999999" y="-0.000000" z="-0.001755" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.003269" y="12.512637" z="1.862015" />
+                  <normal x="0.999999" y="-0.000000" z="-0.001754" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.005425" y="6.516327" z="3.091107" />
+                  <normal x="0.999999" y="-0.000000" z="-0.001754" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.000652" y="15.029387" z="-0.372577" />
+                  <normal x="0.999999" y="-0.000000" z="-0.001754" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.000620" y="1.510998" z="-0.354181" />
+                  <normal x="0.999999" y="-0.000000" z="-0.001754" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.354182" y="1.510998" z="0.000000" />
+                  <normal x="-0.000000" y="-0.000000" z="1.000000" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="3.091111" y="6.516327" z="0.000001" />
+                  <normal x="-0.000000" y="-0.000000" z="1.000000" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.372578" y="15.029387" z="0.000001" />
+                  <normal x="-0.000000" y="-0.000000" z="1.000000" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="1.862018" y="12.512637" z="0.000001" />
+                  <normal x="-0.000000" y="-0.000000" z="1.000000" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-1.862019" y="12.512637" z="0.000001" />
+                  <normal x="-0.000000" y="-0.000000" z="1.000000" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-3.091112" y="6.516327" z="0.000000" />
+                  <normal x="-0.000000" y="-0.000000" z="1.000000" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.372577" y="15.029387" z="0.000001" />
+                  <normal x="-0.000000" y="-0.000000" z="1.000000" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.354181" y="1.510998" z="0.000000" />
+                  <normal x="-0.000000" y="-0.000000" z="1.000000" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+            </vertexbuffer>
+            <vertexbuffer texture_coord_dimensions_0="2" texture_coords="1">
+               <vertex>
+                  <texcoord u="1.000000" v="0.518200" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.360600" v="0.326400" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.000000" v="0.000000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.587500" v="0.096500" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.587500" v="0.096500" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.360600" v="0.326400" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.000000" v="0.000000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.000000" v="0.518200" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.000000" v="0.518200" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.360600" v="0.326400" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.000000" v="0.000000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.587500" v="0.096500" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.587500" v="0.096500" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.360600" v="0.326400" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.000000" v="0.000000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.000000" v="0.518200" />
+               </vertex>
+            </vertexbuffer>
+         </geometry>
+         <boneassignments>
+            <vertexboneassignment vertexindex="0" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="1" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="2" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="3" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="4" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="5" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="6" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="7" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="8" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="9" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="10" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="11" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="12" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="13" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="14" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="15" boneindex="0" weight="1.000000" />
+         </boneassignments>
+      </submesh>
+      <submesh material="tree_spruce_trunk_DF_tga_Smoothing" usesharedvertices="false" use32bitindexes="false" operationtype="triangle_list">
+         <faces count="60">
+            <face v1="0" v2="1" v3="2" />
+            <face v1="3" v2="4" v3="0" />
+            <face v1="4" v2="1" v3="0" />
+            <face v1="5" v2="4" v3="6" />
+            <face v1="4" v2="3" v3="6" />
+            <face v1="7" v2="5" v3="6" />
+            <face v1="7" v2="8" v3="5" />
+            <face v1="9" v2="8" v3="7" />
+            <face v1="9" v2="10" v3="8" />
+            <face v1="11" v2="12" v3="9" />
+            <face v1="12" v2="10" v3="9" />
+            <face v1="13" v2="14" v3="9" />
+            <face v1="14" v2="15" v3="9" />
+            <face v1="16" v2="17" v3="2" />
+            <face v1="17" v2="0" v3="2" />
+            <face v1="0" v2="17" v3="3" />
+            <face v1="17" v2="18" v3="3" />
+            <face v1="18" v2="6" v3="3" />
+            <face v1="6" v2="18" v3="19" />
+            <face v1="19" v2="20" v3="6" />
+            <face v1="20" v2="7" v3="6" />
+            <face v1="21" v2="22" v3="7" />
+            <face v1="22" v2="23" v3="7" />
+            <face v1="23" v2="24" v3="9" />
+            <face v1="9" v2="7" v3="23" />
+            <face v1="13" v2="25" v3="14" />
+            <face v1="26" v2="27" v3="16" />
+            <face v1="28" v2="29" v3="21" />
+            <face v1="30" v2="31" v3="32" />
+            <face v1="33" v2="34" v3="35" />
+            <face v1="34" v2="36" v3="35" />
+            <face v1="37" v2="34" v3="38" />
+            <face v1="37" v2="39" v3="40" />
+            <face v1="41" v2="42" v3="43" />
+            <face v1="42" v2="37" v3="43" />
+            <face v1="44" v2="45" v3="36" />
+            <face v1="45" v2="46" v3="36" />
+            <face v1="47" v2="44" v3="48" />
+            <face v1="36" v2="34" v3="44" />
+            <face v1="49" v2="50" v3="51" />
+            <face v1="50" v2="52" v3="51" />
+            <face v1="53" v2="54" v3="55" />
+            <face v1="55" v2="56" v3="53" />
+            <face v1="27" v2="17" v3="16" />
+            <face v1="57" v2="18" v3="17" />
+            <face v1="58" v2="59" v3="20" />
+            <face v1="58" v2="20" v3="19" />
+            <face v1="21" v2="29" v3="22" />
+            <face v1="29" v2="60" v3="22" />
+            <face v1="60" v2="61" v3="22" />
+            <face v1="31" v2="13" v3="32" />
+            <face v1="31" v2="62" v3="13" />
+            <face v1="57" v2="19" v3="18" />
+            <face v1="57" v2="58" v3="19" />
+            <face v1="23" v2="22" v3="24" />
+            <face v1="24" v2="32" v3="9" />
+            <face v1="32" v2="13" v3="9" />
+            <face v1="63" v2="51" v3="64" />
+            <face v1="51" v2="52" v3="64" />
+            <face v1="46" v2="65" v3="36" />
+         </faces>
+         <geometry vertexcount="66">
+            <vertexbuffer positions="true" normals="true" colours_diffuse="true">
+               <vertex>
+                  <position x="-0.217080" y="0.423625" z="0.010675" />
+                  <normal x="-0.887343" y="0.066149" z="-0.456340" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.145534" y="1.839272" z="-0.050043" />
+                  <normal x="-0.676804" y="0.019200" z="-0.735913" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.115415" y="0.444372" z="-0.102250" />
+                  <normal x="-0.464984" y="0.065843" z="-0.882867" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.238445" y="0.423774" z="0.105162" />
+                  <normal x="-0.970320" y="0.118681" z="0.210700" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.189690" y="1.826252" z="0.082618" />
+                  <normal x="-0.959436" y="0.042929" z="0.278637" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.088986" y="1.830988" z="0.164592" />
+                  <normal x="-0.055992" y="0.047183" z="0.997316" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.118430" y="0.454051" z="0.203426" />
+                  <normal x="-0.295640" y="0.141354" z="0.944783" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.128689" y="0.371263" z="0.165123" />
+                  <normal x="0.702482" y="0.305625" z="0.642739" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.092596" y="1.714738" z="0.061037" />
+                  <normal x="0.963335" y="0.024372" z="0.267193" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.058835" y="0.477981" z="-0.082476" />
+                  <normal x="0.667203" y="0.302417" z="-0.680723" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.053098" y="1.705991" z="-0.076561" />
+                  <normal x="0.659467" y="0.016290" z="-0.751557" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.115415" y="0.444372" z="-0.102250" />
+                  <normal x="-0.464984" y="0.065843" z="-0.882867" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.145534" y="1.839272" z="-0.050043" />
+                  <normal x="-0.676804" y="0.019200" z="-0.735913" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.070673" y="0.157996" z="-0.148431" />
+                  <normal x="0.300250" y="0.444455" z="-0.843984" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.129751" y="0.170541" z="-0.138491" />
+                  <normal x="-0.441439" y="0.409946" z="-0.798170" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.115415" y="0.444372" z="-0.102250" />
+                  <normal x="-0.464984" y="0.065843" z="-0.882867" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.129751" y="0.170541" z="-0.138491" />
+                  <normal x="-0.441439" y="0.409946" z="-0.798170" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.276445" y="0.129150" z="0.060635" />
+                  <normal x="-0.873371" y="0.485839" z="-0.034407" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.168042" y="0.170485" z="0.230445" />
+                  <normal x="-0.577535" y="0.339631" z="0.742364" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.040756" y="0.170578" z="0.262995" />
+                  <normal x="-0.065747" y="0.429220" z="0.900804" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.155730" y="0.168265" z="0.207872" />
+                  <normal x="0.616876" y="0.513877" z="0.596150" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.155730" y="0.168265" z="0.207872" />
+                  <normal x="0.616876" y="0.513877" z="0.596150" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.198283" y="0.168986" z="0.000333" />
+                  <normal x="0.911567" y="0.362183" z="0.194597" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.150040" y="0.411821" z="0.008270" />
+                  <normal x="0.889604" y="0.453200" z="-0.056691" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.175619" y="0.259363" z="-0.037293" />
+                  <normal x="0.808749" y="0.363215" z="-0.462600" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.009648" y="-0.029387" z="-0.302945" />
+                  <normal x="-0.016874" y="0.543825" z="-0.839029" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.009648" y="-0.029387" z="-0.302945" />
+                  <normal x="-0.016874" y="0.543825" z="-0.839029" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.302020" y="-0.028579" z="-0.142766" />
+                  <normal x="-0.600669" y="0.566930" z="-0.563727" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.245802" y="-0.021581" z="0.355661" />
+                  <normal x="0.581011" y="0.653417" z="0.485256" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.287276" y="-0.029387" z="0.176045" />
+                  <normal x="0.814729" y="0.493117" z="0.305044" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.271212" y="-0.029387" z="-0.145983" />
+                  <normal x="0.383927" y="0.495440" z="-0.779191" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.227434" y="-0.029387" z="-0.197854" />
+                  <normal x="0.502054" y="0.554436" z="-0.663734" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.160272" y="0.165171" z="-0.076938" />
+                  <normal x="0.470450" y="0.453519" z="-0.756966" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.092596" y="1.714738" z="0.061037" />
+                  <normal x="0.963335" y="0.024372" z="0.267193" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.035013" y="7.210559" z="0.121742" />
+                  <normal x="0.349595" y="0.008650" z="0.936861" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.088986" y="1.830988" z="0.164592" />
+                  <normal x="-0.055992" y="0.047183" z="0.997316" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.080739" y="2.370913" z="0.123211" />
+                  <normal x="-0.599340" y="0.028286" z="0.799995" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.004510" y="7.222101" z="0.009859" />
+                  <normal x="0.932866" y="0.012874" z="-0.359994" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.092596" y="1.714738" z="0.061037" />
+                  <normal x="0.963335" y="0.024372" z="0.267193" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.092596" y="1.714738" z="0.061037" />
+                  <normal x="0.963335" y="0.024372" z="0.267193" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.053098" y="1.705991" z="-0.076561" />
+                  <normal x="0.659467" y="0.016290" z="-0.751557" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.145534" y="1.839272" z="-0.050043" />
+                  <normal x="-0.676804" y="0.019200" z="-0.735913" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.087421" y="7.208223" z="-0.025852" />
+                  <normal x="-0.393487" y="0.008401" z="-0.919292" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.053098" y="1.705991" z="-0.076561" />
+                  <normal x="0.659467" y="0.016290" z="-0.751557" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.128240" y="7.211727" z="0.073170" />
+                  <normal x="-0.996624" y="0.011366" z="0.081311" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.145534" y="1.839272" z="-0.050043" />
+                  <normal x="-0.676804" y="0.019200" z="-0.735913" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.189690" y="1.826252" z="0.082618" />
+                  <normal x="-0.959436" y="0.042929" z="0.278637" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.145534" y="1.839272" z="-0.050043" />
+                  <normal x="-0.676804" y="0.019200" z="-0.735913" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.087421" y="7.208223" z="-0.025852" />
+                  <normal x="-0.393487" y="0.008401" z="-0.919292" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.271212" y="-0.029387" z="-0.145983" />
+                  <normal x="0.383927" y="0.495440" z="-0.779191" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.160272" y="0.165171" z="-0.076938" />
+                  <normal x="0.470450" y="0.453519" z="-0.756966" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.387521" y="-0.026002" z="-0.161107" />
+                  <normal x="0.724865" y="0.606231" z="-0.327193" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.175619" y="0.259363" z="-0.037293" />
+                  <normal x="0.808749" y="0.363215" z="-0.462600" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.471141" y="-0.021553" z="0.115647" />
+                  <normal x="-0.602074" y="0.796756" z="0.051839" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.237439" y="-0.028528" z="0.318393" />
+                  <normal x="-0.463627" y="0.574743" z="0.674329" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.276445" y="0.129150" z="0.060635" />
+                  <normal x="-0.873371" y="0.485839" z="-0.034407" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.302020" y="-0.028579" z="-0.142766" />
+                  <normal x="-0.600669" y="0.566930" z="-0.563727" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.237439" y="-0.028528" z="0.318393" />
+                  <normal x="-0.463627" y="0.574743" z="0.674329" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.035455" y="-0.029387" z="0.429209" />
+                  <normal x="0.039908" y="0.644288" z="0.763741" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.245802" y="-0.021581" z="0.355661" />
+                  <normal x="0.581011" y="0.653417" z="0.485256" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.341398" y="-0.029387" z="0.078860" />
+                  <normal x="0.840404" y="0.518933" z="0.156301" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.318673" y="-0.029387" z="-0.060082" />
+                  <normal x="0.854907" y="0.472246" z="0.214752" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.009648" y="-0.029387" z="-0.302945" />
+                  <normal x="-0.016874" y="0.543825" z="-0.839029" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.318673" y="-0.029387" z="-0.060082" />
+                  <normal x="0.854907" y="0.472246" z="0.214752" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="0.198283" y="0.168986" z="0.000333" />
+                  <normal x="0.911567" y="0.362183" z="0.194597" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+               <vertex>
+                  <position x="-0.088986" y="1.830988" z="0.164592" />
+                  <normal x="-0.055992" y="0.047183" z="0.997316" />
+                  <colour_diffuse value="1.000000 1.000000 1.000000 1.000000" />
+               </vertex>
+            </vertexbuffer>
+            <vertexbuffer texture_coord_dimensions_0="2" texture_coords="1">
+               <vertex>
+                  <texcoord u="-0.048900" v="0.817200" />
+               </vertex>
+               <vertex>
+                  <texcoord u="-0.174000" v="0.245800" />
+               </vertex>
+               <vertex>
+                  <texcoord u="-0.256400" v="0.808800" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.068700" v="0.817100" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.047000" v="0.251000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.315400" v="0.249100" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.287300" v="0.804900" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.720200" v="0.838300" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.853900" v="0.294100" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.113800" v="0.795200" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.115400" v="0.299600" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.381700" v="0.695100" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.335200" v="0.304400" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.141300" v="0.924400" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.324800" v="0.919100" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.398000" v="0.869000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="-0.260500" v="0.919300" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.012800" v="0.936000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.248600" v="0.919300" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.434900" v="0.919300" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.639000" v="0.921400" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.746700" v="0.919100" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.921600" v="0.919900" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.929900" v="0.821900" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.967000" v="0.883500" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.267000" v="1.000000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="-0.337700" v="1.000000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="-0.137100" v="0.999700" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.714800" v="1.000000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.774000" v="1.000000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.003700" v="1.000000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.051600" v="1.000000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.011900" v="0.921500" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.558800" v="0.695800" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.466000" v="-0.440700" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.316700" v="0.673100" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.340800" v="0.561300" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.747000" v="-0.440500" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.569500" v="0.695800" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.619800" v="0.705300" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.778900" v="0.665300" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.069900" v="0.686900" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.972100" v="-0.440400" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.791400" v="0.661000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.207400" v="-0.440100" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.116300" v="0.652500" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.231900" v="0.665700" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.104700" v="0.657300" />
+               </vertex>
+               <vertex>
+                  <texcoord u="-0.010900" v="-0.440400" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.359400" v="0.937600" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.132300" v="0.911700" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.423500" v="0.981200" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.035100" v="0.928800" />
+               </vertex>
+               <vertex>
+                  <texcoord u="-0.238600" v="0.936700" />
+               </vertex>
+               <vertex>
+                  <texcoord u="-0.121700" v="0.976100" />
+               </vertex>
+               <vertex>
+                  <texcoord u="-0.011000" v="0.929900" />
+               </vertex>
+               <vertex>
+                  <texcoord u="-0.193300" v="0.895900" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.239400" v="0.999700" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.502100" v="1.000000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.637100" v="1.000000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.845000" v="1.000000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.937000" v="1.000000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.187600" v="1.000000" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.314800" v="1.006500" />
+               </vertex>
+               <vertex>
+                  <texcoord u="1.089600" v="0.968100" />
+               </vertex>
+               <vertex>
+                  <texcoord u="0.386400" v="0.675100" />
+               </vertex>
+            </vertexbuffer>
+         </geometry>
+         <boneassignments>
+            <vertexboneassignment vertexindex="0" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="1" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="2" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="3" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="4" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="5" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="6" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="7" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="8" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="9" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="10" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="11" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="12" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="13" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="14" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="15" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="16" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="17" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="18" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="19" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="20" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="21" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="22" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="23" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="24" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="25" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="26" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="27" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="28" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="29" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="30" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="31" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="32" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="33" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="34" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="35" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="36" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="37" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="38" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="39" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="40" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="41" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="42" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="43" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="44" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="45" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="46" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="47" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="48" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="49" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="50" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="51" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="52" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="53" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="54" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="55" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="56" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="57" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="58" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="59" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="60" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="61" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="62" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="63" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="64" boneindex="0" weight="1.000000" />
+            <vertexboneassignment vertexindex="65" boneindex="0" weight="1.000000" />
+         </boneassignments>
+      </submesh>
+   </submeshes>
+   <submeshnames>
+      <submeshname name="tree_spruce_leaf_DF_tga_Smoothing" index="0" />
+      <submeshname name="tree_spruce_trunk_DF_tga_Smoothing" index="1" />
+   </submeshnames>
+   <skeletonlink name="spruce_2_lod.skeleton" />
+</mesh>

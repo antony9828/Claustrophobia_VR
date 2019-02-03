@@ -1,0 +1,8 @@
+texture0="abstract::tumbleweed_DF.dds"
+texture1="abstract::tumbleweed_N.dds"
+texture3="abstract::tumbleweed_Spec.dds"
+
+cullface=0
+
+shader="abstract::mesh_diffuse_bumpmap_specular_sway_alphatest.vert", "abstract::mesh_diffuse_bumpmap_specular_sway_alphatest.frag"
+shadowshader="abstract::mesh_shadow_sway.vert","abstract::mesh_shadow.frag"

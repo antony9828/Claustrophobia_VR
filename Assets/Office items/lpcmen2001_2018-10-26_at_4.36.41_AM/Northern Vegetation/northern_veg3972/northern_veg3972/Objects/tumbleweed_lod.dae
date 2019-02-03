@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <authoring_tool>Lightwave 9.5</authoring_tool>
+        </contributor>
+        <created>2009-10-03T21:27:26Z</created>
+        <modified>2009-10-03T21:27:26Z</modified>
+        <unit meter="1"></unit>
+        <up_axis>Y_UP</up_axis>
+    </asset>
+    <library_animations></library_animations>
+    <library_cameras></library_cameras>
+    <library_lights></library_lights>
+    <library_images>
+        <image id="tumbleweed_DF" name="tumbleweed_DF">
+            <init_from>file:///D:/3d/3d-daten/3D/3D-Objekte/swen/vegetation/Pack 1 Models/Objects/tumbleweed_DF.tga</init_from>
+        </image>
+    </library_images>
+    <library_materials>
+        <material id="tumbleweed_DF_tga_Smoothing" name="tumbleweed_DF_tga_Smoothing">
+            <instance_effect url="#tumbleweed_DF_tga_Smoothing-fx"></instance_effect>
+        </material>
+    </library_materials>
+    <library_effects>
+        <effect id="tumbleweed_DF_tga_Smoothing-fx">
+            <profile_COMMON>
+                <newparam sid="tumbleweed_DF-surface">
+                    <surface type="2D">
+                        <init_from>tumbleweed_DF</init_from>
+                        <format>A8R8G8B8</format>
+                    </surface>
+                </newparam>
+                <newparam sid="tumbleweed_DF-sampler">
+                    <sampler2D>
+                        <source>tumbleweed_DF-surface</source>
+                        <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+                        <magfilter>LINEAR</magfilter>
+                    </sampler2D>
+                </newparam>
+                <technique sid="common">
+                    <blinn>
+                        <diffuse>
+                            <texture texture="tumbleweed_DF-sampler" texcoord="TEX0"></texture>
+                        </diffuse>
+                    </blinn>
+                </technique>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+    <library_geometries>
+        <geometry id="Mesh_Object_lib" name="Mesh_Object">
+            <mesh>
+                <source id="Mesh_Object_positions" name="position">
+                    <float_array id="Mesh_Object_positions_array" count="117">0.256842 -0.188757 0.102155 
+0.134847 -0.067911 0.202138 
+-0.118681 -0.107621 0.0888712 
+-0.018039 -0.217372 0.00811418 
+-0.182678 -0.070842 -0.181748 
+-0.060683 -0.191688 -0.281732 
+0.112724 0.120698 0.178321 
+-0.119789 0.176896 0.0927272 
+-0.183601 0.117767 -0.182424 
+-0.233756 -0.185735 -0.138494 
+-0.245685 -0.023998 -0.0236798 
+-0.007484 0.11711 -0.0687568 
+0.010999 -0.018855 -0.190232 
+0.250902 0.015777 -0.0281168 
+0.26283 -0.14596 -0.142931 
+-0.226364 -0.011644 0.16502 
+-0.011411 0.132303 0.21473 
+0.251985 0.023275 0.160343 
+-0.043184 -0.178227 -0.287743 
+0.102926 -0.054035 -0.217542 
+0.152627 -0.093863 -0.0283828 
+0.03418 -0.207009 -0.0868198 
+0.062455 -0.095826 0.163959 
+-0.056955 -0.208259 0.10507 
+-0.092089 -0.057047 0.219927 
+-0.262828 -0.181239 0.174729 
+0.102697 0.139795 -0.216389 
+0.138963 0.18156 -0.0210918 
+0.07227 0.196924 0.170527 
+-0.116947 0.136784 0.246083 
+0.177553 0.224258 0.0688722 
+0.186802 0.042849 0.13554 
+0.10285 -0.114773 -0.0711388 
+0.102034 0.038348 -0.132483 
+-0.134895 -0.095536 -0.185862 
+-0.148699 0.085872 -0.262424 
+0.084601 -0.03309 0.267906 
+-0.038563 -0.224258 0.117965 
+-0.241651 -0.171475 -0.0633908 
+</float_array>
+                    <technique_common>
+                        <accessor count="39" offset="0" source="#Mesh_Object_positions_array" stride="3">
+                            <param name="X" type="float"></param>
+                            <param name="Y" type="float"></param>
+                            <param name="Z" type="float"></param>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="tumbleweed_lod_uv_uvmap" name="uvmap">
+                    <float_array id="tumbleweed_lod_uv_uvmap_array" count="320">0.5 0 
+0.5 0.5 
+0 0.5 
+0 0 
+1 0 
+1 0.5 
+0.5 0.5 
+0.5 0 
+0.5 0.5 
+0.5 1 
+0 1 
+0 0.5 
+1 0.5 
+1 1 
+0.5 1 
+0.5 0.5 
+0.5 0 
+0.5 0.5 
+0 0.5 
+0 0 
+1 0 
+1 0.5 
+0.5 0.5 
+0.5 0 
+0.5 0.5 
+0.5 1 
+0 1 
+0 0.5 
+1 0.5 
+1 1 
+0.5 1 
+0.5 0.5 
+0.3333 0 
+0.3333 0.5 
+0 0.5 
+0 0 
+0.6667 0 
+0.6667 0.5 
+0.3333 0.5 
+0.3333 0 
+1 0 
+1 0.5 
+0.6667 0.5 
+0.6667 0 
+0.3333 0.5 
+0.3333 1 
+0 1 
+0 0.5 
+0.6667 0.5 
+0.6667 1 
+0.3333 1 
+0.3333 0.5 
+1 0.5 
+1 1 
+0.6667 1 
+0.6667 0.5 
+0.5 0 
+0.5 0.5 
+0 0.5 
+0 0 
+1 0 
+1 0.5 
+0.5 0.5 
+0.5 0 
+0.5 0.5 
+0.5 1 
+0 1 
+0 0.5 
+1 0.5 
+1 1 
+0.5 1 
+0.5 0.5 
+0 0.5 
+0.5 0.5 
+0.5 0 
+0 0 
+1 0.5 
+1 0 
+0.5 0 
+0.5 0 
+0.5 0.5 
+1 0.5 
+0.5 1 
+0.5 0.5 
+0 0.5 
+0 0.5 
+0 1 
+0.5 1 
+0.5 1 
+1 1 
+1 0.5 
+0.5 0.5 
+0 0.5 
+0.5 0.5 
+0.5 0 
+0 0 
+1 0.5 
+1 0 
+0.5 0 
+0.5 0 
+0.5 0.5 
+1 0.5 
+0.5 1 
+0.5 0.5 
+0 0.5 
+0 0.5 
+0 1 
+0.5 1 
+0.5 1 
+1 1 
+1 0.5 
+0.5 0.5 
+0 0.5 
+0.3333 0.5 
+0.3333 0 
+0 0 
+0.3333 0.5 
+0.6667 0.5 
+0.6667 0 
+0.3333 0 
+1 0.5 
+1 0 
+0.6667 0 
+0.6667 0 
+0.6667 0.5 
+1 0.5 
+0.3333 1 
+0.3333 0.5 
+0 0.5 
+0 0.5 
+0 1 
+0.3333 1 
+0.3333 1 
+0.6667 1 
+0.6667 0.5 
+0.3333 0.5 
+0.6667 1 
+1 1 
+1 0.5 
+0.6667 0.5 
+0 0.5 
+0.5 0.5 
+0.5 0 
+0 0 
+1 0.5 
+1 0 
+0.5 0 
+0.5 0 
+0.5 0.5 
+1 0.5 
+0.5 1 
+0.5 0.5 
+0 0.5 
+0 0.5 
+0 1 
+0.5 1 
+0.5 1 
+1 1 
+1 0.5 
+0.5 0.5 
+</float_array>
+                    <technique_common>
+                        <accessor count="160" offset="0" source="#tumbleweed_lod_uv_uvmap_array" stride="2">
+                            <param name="S" type="float"></param>
+                            <param name="T" type="float"></param>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="Mesh_Object_vertices">
+                    <input semantic="POSITION" source="#Mesh_Object_positions"></input>
+                </vertices>
+                <polylist count="44" material="tumbleweed_DF_tga_Smoothing">
+                    <input offset="0" semantic="VERTEX" source="#Mesh_Object_vertices"></input>
+                    <input offset="1" semantic="TEXCOORD" source="#tumbleweed_lod_uv_uvmap" set="0"></input>
+                    <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 3 3 3 3 4 4 3 3 3 3 4 4 4 3 3 3 3 4 4 4 3 3 3 3 4 </vcount>
+                    <p>0 3 1 2 2 1 3 0 3 7 2 6 4 5 5 4 1 11 6 10 7 9 2 8 2 15 7 14 8 13 4 12 9 19 10 18 11 17 12 16 12 23 11 22 13 21 14 20 10 27 15 26 16 25 11 24 11 31 16 30 17 29 13 28 18 35 19 34 20 33 21 32 21 39 20 38 22 37 23 36 23 43 22 42 24 41 25 40 19 47 26 46 27 45 20 44 20 51 27 50 28 49 22 48 22 55 28 54 29 53 24 52 30 59 31 58 32 57 33 56 33 63 32 62 34 61 35 60 31 67 36 66 37 65 32 64 32 71 37 70 38 69 34 68 0 75 3 74 2 73 1 72 3 78 5 77 4 76 4 81 2 80 3 79 1 84 2 83 7 82 7 87 6 86 1 85 2 91 4 90 8 89 7 88 9 95 12 94 11 93 10 92 12 98 14 97 13 96 13 101 11 100 12 99 10 104 11 103 16 102 16 107 15 106 10 105 11 111 13 110 17 109 16 108 18 115 21 114 20 113 19 112 21 119 23 118 22 117 20 116 23 122 25 121 24 120 24 125 22 124 23 123 19 128 20 127 27 126 27 131 26 130 19 129 20 135 22 134 28 133 27 132 22 139 24 138 29 137 28 136 30 143 33 142 32 141 31 140 33 146 35 145 34 144 34 149 32 148 33 147 31 152 32 151 37 150 37 155 36 154 31 153 32 159 34 158 38 157 37 156 </p>
+                </polylist>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_controllers></library_controllers>
+    <library_visual_scenes>
+        <visual_scene id="VisualSceneNode" name="Scene">
+            <node id="Mesh_Object" name="Mesh_Object">
+                <instance_geometry url="#Mesh_Object_lib">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="tumbleweed_DF_tga_Smoothing" target="#tumbleweed_DF_tga_Smoothing">
+                                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"></bind_vertex_input>
+                            </instance_material>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#VisualSceneNode"></instance_visual_scene>
+    </scene>
+</COLLADA>

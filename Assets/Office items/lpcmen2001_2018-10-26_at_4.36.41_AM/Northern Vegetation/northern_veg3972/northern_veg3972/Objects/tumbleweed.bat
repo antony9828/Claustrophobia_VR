@@ -1,0 +1,2 @@
+OgreXmlConverter.exe tumbleweed_mesh.xml tumbleweed.mesh
+OgreXmlConverter.exe tumbleweed_skeleton.xml tumbleweed.skeleton

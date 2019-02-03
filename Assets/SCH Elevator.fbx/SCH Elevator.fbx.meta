@@ -1,0 +1,475 @@
+fileFormatVersion: 2
+guid: 2d251b8a97997e542a79ee695073d1f3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: "Bot\xF3n"
+    100002: "Bot\xF3n.001"
+    100004: "Bot\xF3n.002"
+    100006: "Bot\xF3n.003"
+    100008: "Bot\xF3n.004"
+    100010: "Bot\xF3n.005"
+    100012: "Bot\xF3n.006"
+    100014: "Bot\xF3n.007"
+    100016: "Bot\xF3n.008"
+    100018: "Bot\xF3n.009"
+    100020: "Bot\xF3n.010"
+    100022: "Bot\xF3n.011"
+    100024: "Bot\xF3n.012"
+    100026: "Bot\xF3n.013"
+    100028: "Bot\xF3n.014"
+    100030: "Bot\xF3n.015"
+    100032: "Bot\xF3n.016"
+    100034: "Bot\xF3n.017"
+    100036: "Bot\xF3n.018"
+    100038: "Bot\xF3n.019"
+    100040: "Bot\xF3n.020"
+    100042: "Bot\xF3n.021"
+    100044: "Bot\xF3n.022"
+    100046: "Bot\xF3n.023"
+    100048: "Bot\xF3n.024"
+    100050: "Bot\xF3n.025"
+    100052: Cubo
+    100054: Cubo.001
+    100056: Display
+    100058: Display.001
+    100060: Display.002
+    100062: Display.003
+    100064: Espejo
+    100066: Espejo.001
+    100068: Llamador
+    100070: Llamador.001
+    100072: Marco
+    100074: Marco.001
+    100076: Panel
+    100078: Panel.001
+    100080: Pared
+    100082: Pared.001
+    100084: Pared.002
+    100086: Pared.003
+    100088: Pisos exterior
+    100090: Pisos exterior.001
+    100092: Plano.000
+    100094: Plano.001
+    100096: Plano.002
+    100098: Plano.003
+    100100: Plano.004
+    100102: Plano.005
+    100104: Plano.028
+    100106: Puerta Interior
+    100108: Puerta Interior.001
+    100110: Puerta Sch1
+    100112: Puerta Sch1.001
+    100114: //RootNode
+    400000: "Bot\xF3n"
+    400002: "Bot\xF3n.001"
+    400004: "Bot\xF3n.002"
+    400006: "Bot\xF3n.003"
+    400008: "Bot\xF3n.004"
+    400010: "Bot\xF3n.005"
+    400012: "Bot\xF3n.006"
+    400014: "Bot\xF3n.007"
+    400016: "Bot\xF3n.008"
+    400018: "Bot\xF3n.009"
+    400020: "Bot\xF3n.010"
+    400022: "Bot\xF3n.011"
+    400024: "Bot\xF3n.012"
+    400026: "Bot\xF3n.013"
+    400028: "Bot\xF3n.014"
+    400030: "Bot\xF3n.015"
+    400032: "Bot\xF3n.016"
+    400034: "Bot\xF3n.017"
+    400036: "Bot\xF3n.018"
+    400038: "Bot\xF3n.019"
+    400040: "Bot\xF3n.020"
+    400042: "Bot\xF3n.021"
+    400044: "Bot\xF3n.022"
+    400046: "Bot\xF3n.023"
+    400048: "Bot\xF3n.024"
+    400050: "Bot\xF3n.025"
+    400052: Cubo
+    400054: Cubo.001
+    400056: Display
+    400058: Display.001
+    400060: Display.002
+    400062: Display.003
+    400064: Espejo
+    400066: Espejo.001
+    400068: Llamador
+    400070: Llamador.001
+    400072: Marco
+    400074: Marco.001
+    400076: Panel
+    400078: Panel.001
+    400080: Pared
+    400082: Pared.001
+    400084: Pared.002
+    400086: Pared.003
+    400088: Pisos exterior
+    400090: Pisos exterior.001
+    400092: Plano.000
+    400094: Plano.001
+    400096: Plano.002
+    400098: Plano.003
+    400100: Plano.004
+    400102: Plano.005
+    400104: Plano.028
+    400106: Puerta Interior
+    400108: Puerta Interior.001
+    400110: Puerta Sch1
+    400112: Puerta Sch1.001
+    400114: //RootNode
+    2100000: Interior ascensor
+    2100002: Aluminio
+    2100004: Acero inoxidable
+    2100006: Suelo interior
+    2100008: Blanco
+    2100010: Luz Interior
+    2100012: Espejo
+    2100014: Negro
+    2100016: LED Rojo
+    2100018: LED apagado
+    2100020: Cristal Display
+    2100022: Metal Brillante
+    2100024: Led Naranja
+    2100026: Puertas Sch
+    2100028: Cristal Cuadros Amarillo
+    2100030: Suelo
+    2100032: Rodapies
+    2100034: Pared Blanca
+    2300000: "Bot\xF3n"
+    2300002: "Bot\xF3n.001"
+    2300004: "Bot\xF3n.002"
+    2300006: "Bot\xF3n.003"
+    2300008: "Bot\xF3n.004"
+    2300010: "Bot\xF3n.005"
+    2300012: "Bot\xF3n.006"
+    2300014: "Bot\xF3n.007"
+    2300016: "Bot\xF3n.008"
+    2300018: "Bot\xF3n.009"
+    2300020: "Bot\xF3n.010"
+    2300022: "Bot\xF3n.011"
+    2300024: "Bot\xF3n.012"
+    2300026: "Bot\xF3n.013"
+    2300028: "Bot\xF3n.014"
+    2300030: "Bot\xF3n.015"
+    2300032: "Bot\xF3n.016"
+    2300034: "Bot\xF3n.017"
+    2300036: "Bot\xF3n.018"
+    2300038: "Bot\xF3n.019"
+    2300040: "Bot\xF3n.020"
+    2300042: "Bot\xF3n.021"
+    2300044: "Bot\xF3n.022"
+    2300046: "Bot\xF3n.023"
+    2300048: "Bot\xF3n.024"
+    2300050: "Bot\xF3n.025"
+    2300052: Cubo
+    2300054: Cubo.001
+    2300056: Display
+    2300058: Display.001
+    2300060: Display.002
+    2300062: Display.003
+    2300064: Espejo
+    2300066: Espejo.001
+    2300068: Llamador
+    2300070: Llamador.001
+    2300072: Marco
+    2300074: Marco.001
+    2300076: Panel
+    2300078: Panel.001
+    2300080: Pared
+    2300082: Pared.001
+    2300084: Pared.002
+    2300086: Pared.003
+    2300088: Pisos exterior
+    2300090: Pisos exterior.001
+    2300092: Plano.000
+    2300094: Plano.001
+    2300096: Plano.002
+    2300098: Plano.003
+    2300100: Plano.004
+    2300102: Plano.005
+    2300104: Plano.028
+    2300106: Puerta Interior
+    2300108: Puerta Interior.001
+    2300110: Puerta Sch1
+    2300112: Puerta Sch1.001
+    3300000: "Bot\xF3n"
+    3300002: "Bot\xF3n.001"
+    3300004: "Bot\xF3n.002"
+    3300006: "Bot\xF3n.003"
+    3300008: "Bot\xF3n.004"
+    3300010: "Bot\xF3n.005"
+    3300012: "Bot\xF3n.006"
+    3300014: "Bot\xF3n.007"
+    3300016: "Bot\xF3n.008"
+    3300018: "Bot\xF3n.009"
+    3300020: "Bot\xF3n.010"
+    3300022: "Bot\xF3n.011"
+    3300024: "Bot\xF3n.012"
+    3300026: "Bot\xF3n.013"
+    3300028: "Bot\xF3n.014"
+    3300030: "Bot\xF3n.015"
+    3300032: "Bot\xF3n.016"
+    3300034: "Bot\xF3n.017"
+    3300036: "Bot\xF3n.018"
+    3300038: "Bot\xF3n.019"
+    3300040: "Bot\xF3n.020"
+    3300042: "Bot\xF3n.021"
+    3300044: "Bot\xF3n.022"
+    3300046: "Bot\xF3n.023"
+    3300048: "Bot\xF3n.024"
+    3300050: "Bot\xF3n.025"
+    3300052: Cubo
+    3300054: Cubo.001
+    3300056: Display
+    3300058: Display.001
+    3300060: Display.002
+    3300062: Display.003
+    3300064: Espejo
+    3300066: Espejo.001
+    3300068: Llamador
+    3300070: Llamador.001
+    3300072: Marco
+    3300074: Marco.001
+    3300076: Panel
+    3300078: Panel.001
+    3300080: Pared
+    3300082: Pared.001
+    3300084: Pared.002
+    3300086: Pared.003
+    3300088: Pisos exterior
+    3300090: Pisos exterior.001
+    3300092: Plano.000
+    3300094: Plano.001
+    3300096: Plano.002
+    3300098: Plano.003
+    3300100: Plano.004
+    3300102: Plano.005
+    3300104: Plano.028
+    3300106: Puerta Interior
+    3300108: Puerta Interior.001
+    3300110: Puerta Sch1
+    3300112: Puerta Sch1.001
+    4300000: Plano.005
+    4300002: Plano.004
+    4300004: Plano.000
+    4300006: Cubo.001
+    4300008: Espejo.001
+    4300010: Puerta Interior.001
+    4300012: Display.002
+    4300014: Panel.001
+    4300016: "Bot\xF3n.025"
+    4300018: "Bot\xF3n.024"
+    4300020: "Bot\xF3n.023"
+    4300022: "Bot\xF3n.022"
+    4300024: "Bot\xF3n.021"
+    4300026: "Bot\xF3n.020"
+    4300028: "Bot\xF3n.019"
+    4300030: "Bot\xF3n.018"
+    4300032: "Bot\xF3n.017"
+    4300034: "Bot\xF3n.016"
+    4300036: "Bot\xF3n.015"
+    4300038: "Bot\xF3n.014"
+    4300040: Marco.001
+    4300042: Puerta Sch1.001
+    4300044: "Bot\xF3n.013"
+    4300046: Llamador.001
+    4300048: Pisos exterior.001
+    4300050: Plano.028
+    4300052: Pared.003
+    4300054: Pared.001
+    4300056: "Bot\xF3n.012"
+    4300058: "Bot\xF3n.011"
+    4300060: "Bot\xF3n.010"
+    4300062: "Bot\xF3n.009"
+    4300064: "Bot\xF3n.008"
+    4300066: "Bot\xF3n.007"
+    4300068: "Bot\xF3n.006"
+    4300070: "Bot\xF3n.005"
+    4300072: "Bot\xF3n.004"
+    4300074: "Bot\xF3n.003"
+    4300076: "Bot\xF3n.002"
+    4300078: "Bot\xF3n.001"
+    4300080: Panel
+    4300082: Pisos exterior
+    4300084: Llamador
+    4300086: "Bot\xF3n"
+    4300088: Puerta Interior
+    4300090: Plano.003
+    4300092: Plano.002
+    4300094: Plano.001
+    4300096: Pared
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Acero inoxidable
+    second: {fileID: 2100000, guid: 98286c8209ee0a34eb6899891bbaccef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminio
+    second: {fileID: 2100000, guid: 30f312b79046a704c9b7dc6ee5536372, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blanco
+    second: {fileID: 2100000, guid: 3920074e2f620e34286cf02a4592b10a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cristal Cuadros Amarillo
+    second: {fileID: 2100000, guid: 03aa055964ca6ca4095dc761d90ac748, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cristal Display
+    second: {fileID: 2100000, guid: 6960f8468b71bed4fb529829ca211bc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Espejo
+    second: {fileID: 2100000, guid: 531f713901ad2ec40a8277716cc9f83a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior ascensor
+    second: {fileID: 2100000, guid: 688a39d7260a19d41af655d0f2762af5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LED Rojo
+    second: {fileID: 2100000, guid: b37b1eff09447a649b526ce8bd3e1a14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LED apagado
+    second: {fileID: 2100000, guid: e8798f641aa2f3640bd32da626dcf650, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Led Naranja
+    second: {fileID: 2100000, guid: 8cc59f15a9638124387fd9e916695256, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Luz Interior
+    second: {fileID: 2100000, guid: a865efbadd086a24383509276f1684f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal Brillante
+    second: {fileID: 2100000, guid: 48ae0a551e625514a9db5a46e6fdaaaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Negro
+    second: {fileID: 2100000, guid: 63efa08acddba4646a39aad8063b8118, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pared Blanca
+    second: {fileID: 2100000, guid: b137dbedb1b11e941a637e781a5396a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Puertas Sch
+    second: {fileID: 2100000, guid: 48aeb782e8ad8cf44ad48f9fda535bde, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rodapies
+    second: {fileID: 2100000, guid: 0be06eb094fe9e44d968fb0b76754c64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suelo
+    second: {fileID: 2100000, guid: 8e3c660f1ada5d3408103c0501641203, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Suelo interior
+    second: {fileID: 2100000, guid: 8694f2c295c412547953884af25a2e05, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

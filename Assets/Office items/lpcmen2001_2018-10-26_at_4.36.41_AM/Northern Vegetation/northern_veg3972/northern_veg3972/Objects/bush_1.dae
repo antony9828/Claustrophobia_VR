@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <authoring_tool>Lightwave 9.5</authoring_tool>
+        </contributor>
+        <created>2009-10-03T13:11:42Z</created>
+        <modified>2009-10-03T13:11:42Z</modified>
+        <unit meter="1"></unit>
+        <up_axis>Y_UP</up_axis>
+    </asset>
+    <library_animations></library_animations>
+    <library_cameras></library_cameras>
+    <library_lights></library_lights>
+    <library_images>
+        <image id="bush_1_DF" name="bush_1_DF">
+            <init_from>file:///D:/3d/3d-daten/3D/3D-Objekte/swen/vegetation/Pack 1 Models/Objects/bush_1_DF.tga</init_from>
+        </image>
+    </library_images>
+    <library_materials>
+        <material id="bush_1_DF_tga_Smoothing" name="bush_1_DF_tga_Smoothing">
+            <instance_effect url="#bush_1_DF_tga_Smoothing-fx"></instance_effect>
+        </material>
+    </library_materials>
+    <library_effects>
+        <effect id="bush_1_DF_tga_Smoothing-fx">
+            <profile_COMMON>
+                <newparam sid="bush_1_DF-surface">
+                    <surface type="2D">
+                        <init_from>bush_1_DF</init_from>
+                        <format>A8R8G8B8</format>
+                    </surface>
+                </newparam>
+                <newparam sid="bush_1_DF-sampler">
+                    <sampler2D>
+                        <source>bush_1_DF-surface</source>
+                        <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+                        <magfilter>LINEAR</magfilter>
+                    </sampler2D>
+                </newparam>
+                <technique sid="common">
+                    <blinn>
+                        <diffuse>
+                            <texture texture="bush_1_DF-sampler" texcoord="TEX0"></texture>
+                        </diffuse>
+                    </blinn>
+                </technique>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+    <library_geometries>
+        <geometry id="Mesh_Object_lib" name="Mesh_Object">
+            <mesh>
+                <source id="Mesh_Object_positions" name="position">
+                    <float_array id="Mesh_Object_positions_array" count="96">-0.268413 -0.059074 0.300859 
+-0.525442 0.059302 -0.176304 
+-0.412614 0.627415 -0.109758 
+-0.638446 0.505695 0.413041 
+-0.014139 0.659074 -0.531614 
+0.065434 0.023221 -0.604867 
+-0.02874 0.630056 0.004033 
+-0.389412 -0.00579701 -0.050671 
+-0.381348 0.024465 -0.207881 
+0.148257 -0.001534 -0.382911 
+0.227152 0.531781 -0.266426 
+-0.275688 0.55778 -0.471854 
+-0.637645 0.585288 0.207219 
+-0.724711 0.060424 -0.008605 
+-0.162954 0.596695 0.042875 
+-0.170468 -0.037794 0.195162 
+0.145409 0.029209 0.604865 
+-0.084248 0.00254299 0.080916 
+0.027107 0.586851 -0.010847 
+-0.243791 0.613517 0.525169 
+0.72471 -0.050642 -0.189641 
+0.184338 0.067735 -0.147854 
+0.290873 0.635847 -0.22407 
+0.677439 0.514127 0.194123 
+-0.195687 0.600518 0.251641 
+-0.270165 0.011434 0.18461 
+0.309255 0.573634 0.118299 
+0.290131 -0.01545 0.455722 
+0.467906 0.585288 0.069706 
+0.509864 0.596695 -0.430875 
+0.235313 0.060424 0.061916 
+0.646062 -0.037794 -0.362336 
+</float_array>
+                    <technique_common>
+                        <accessor count="32" offset="0" source="#Mesh_Object_positions_array" stride="3">
+                            <param name="X" type="float"></param>
+                            <param name="Y" type="float"></param>
+                            <param name="Z" type="float"></param>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="bush_1_uv_uvmap" name="uvmap">
+                    <float_array id="bush_1_uv_uvmap_array" count="80">-1.66893e-08 0.9901 
+1 0.9901 
+1 9.99998e-05 
+-1.66893e-08 9.99998e-05 
+1 0.9901 
+-1.66893e-08 9.99998e-05 
+-1.66893e-08 0.9901 
+1 0.9901 
+1 9.99998e-05 
+-1.66893e-08 9.99998e-05 
+-1.66893e-08 0.9901 
+1 0.9901 
+1 9.99998e-05 
+-1.66893e-08 9.99998e-05 
+1 0.9901 
+-1.66893e-08 9.99998e-05 
+-1.66893e-08 0.9901 
+1 0.9901 
+1 9.99998e-05 
+-1.66893e-08 9.99998e-05 
+-1.66893e-08 0.9901 
+1 0.9901 
+1 9.99998e-05 
+-1.66893e-08 9.99998e-05 
+-1.66893e-08 0.9901 
+1 0.9901 
+1 9.99998e-05 
+-1.66893e-08 9.99998e-05 
+1 0.9901 
+-1.66893e-08 9.99998e-05 
+-1.66893e-08 0.9901 
+1 0.9901 
+1 9.99998e-05 
+-1.66893e-08 9.99998e-05 
+-1.66893e-08 9.99998e-05 
+1 0.9901 
+-1.66893e-08 0.9901 
+1 9.99998e-05 
+1 0.9901 
+-1.66893e-08 9.99998e-05 
+</float_array>
+                    <technique_common>
+                        <accessor count="40" offset="0" source="#bush_1_uv_uvmap_array" stride="2">
+                            <param name="S" type="float"></param>
+                            <param name="T" type="float"></param>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="Mesh_Object_vertices">
+                    <input semantic="POSITION" source="#Mesh_Object_positions"></input>
+                </vertices>
+                <polylist count="12" material="bush_1_DF_tga_Smoothing">
+                    <input offset="0" semantic="VERTEX" source="#Mesh_Object_vertices"></input>
+                    <input offset="1" semantic="TEXCOORD" source="#bush_1_uv_uvmap" set="0"></input>
+                    <vcount>4 3 3 4 3 3 4 4 3 3 3 3 </vcount>
+                    <p>0 3 1 2 2 1 3 0 4 6 5 5 6 4 5 9 7 8 6 7 8 13 9 12 10 11 11 10 12 16 13 15 14 14 13 19 15 18 14 17 16 23 17 22 18 21 19 20 20 27 21 26 22 25 23 24 24 30 25 29 26 28 25 33 27 32 26 31 28 36 29 35 30 34 30 39 29 38 31 37 </p>
+                </polylist>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_controllers></library_controllers>
+    <library_visual_scenes>
+        <visual_scene id="VisualSceneNode" name="Scene">
+            <node id="Mesh_Object" name="Mesh_Object">
+                <instance_geometry url="#Mesh_Object_lib">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="bush_1_DF_tga_Smoothing" target="#bush_1_DF_tga_Smoothing">
+                                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"></bind_vertex_input>
+                            </instance_material>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#VisualSceneNode"></instance_visual_scene>
+    </scene>
+</COLLADA>

@@ -1,0 +1,9 @@
+texture0="abstract::bush_2_DF.dds"
+texture1="abstract::bush_2_N.dds"
+texture3="abstract::bush_2_Spec.dds"
+
+specular=0.25
+cullface=0
+
+shader="abstract::mesh_diffuse_bumpmap_sway_alphatest.vert", "abstract::mesh_diffuse_bumpmap_sway_alphatest.frag"
+shadowshader="abstract::mesh_shadow_sway.vert","abstract::mesh_shadow.frag"

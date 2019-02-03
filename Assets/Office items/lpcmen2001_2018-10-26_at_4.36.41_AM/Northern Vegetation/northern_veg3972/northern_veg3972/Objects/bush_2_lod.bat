@@ -1,0 +1,2 @@
+OgreXmlConverter.exe bush_2_lod_mesh.xml bush_2_lod.mesh
+OgreXmlConverter.exe bush_2_lod_skeleton.xml bush_2_lod.skeleton

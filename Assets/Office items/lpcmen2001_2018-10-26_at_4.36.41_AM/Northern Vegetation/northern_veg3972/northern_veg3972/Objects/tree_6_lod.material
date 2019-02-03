@@ -1,0 +1,39 @@
+// Creator: Ultimate Unwrap3D Pro v3.18
+// Time: Sun Oct 04 20:12:39 2009
+
+material tree_birch_green_leaf_DF_tga_Smoothing
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.200000 0.200000 0.200000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.200000 0.200000 0.200000 1.000000 20.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture tree_birch_green_leaf_DF.tga
+         }
+      }
+   }
+}
+material tree_spruce_trunk_DF_tga_Smoothing
+{
+   technique
+   {
+      pass
+      {
+         ambient 0.200000 0.200000 0.200000 1.000000
+         diffuse 1.000000 1.000000 1.000000 1.000000
+         specular 0.200000 0.200000 0.200000 1.000000 20.000000
+         emissive 0.000000 0.000000 0.000000 1.000000
+
+         texture_unit
+         {
+            texture tree_spruce_trunk_DF.tga
+         }
+      }
+   }
+}

@@ -1,0 +1,2 @@
+OgreXmlConverter.exe leaves_lod_mesh.xml leaves_lod.mesh
+OgreXmlConverter.exe leaves_lod_skeleton.xml leaves_lod.skeleton

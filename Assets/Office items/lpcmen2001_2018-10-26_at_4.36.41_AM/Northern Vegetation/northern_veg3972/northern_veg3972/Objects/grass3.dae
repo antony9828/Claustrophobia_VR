@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <authoring_tool>Lightwave 9.5</authoring_tool>
+        </contributor>
+        <created>2009-10-03T13:46:25Z</created>
+        <modified>2009-10-03T13:46:25Z</modified>
+        <unit meter="1"></unit>
+        <up_axis>Y_UP</up_axis>
+    </asset>
+    <library_animations></library_animations>
+    <library_cameras></library_cameras>
+    <library_lights></library_lights>
+    <library_images>
+        <image id="grass_DF" name="grass_DF">
+            <init_from>file:///D:/3d/3d-daten/3D/3D-Objekte/swen/vegetation/Pack 1 Models/Objects/grass_DF.tga</init_from>
+        </image>
+    </library_images>
+    <library_materials>
+        <material id="grass_DF_tga_Smoothing" name="grass_DF_tga_Smoothing">
+            <instance_effect url="#grass_DF_tga_Smoothing-fx"></instance_effect>
+        </material>
+    </library_materials>
+    <library_effects>
+        <effect id="grass_DF_tga_Smoothing-fx">
+            <profile_COMMON>
+                <newparam sid="grass_DF-surface">
+                    <surface type="2D">
+                        <init_from>grass_DF</init_from>
+                        <format>A8R8G8B8</format>
+                    </surface>
+                </newparam>
+                <newparam sid="grass_DF-sampler">
+                    <sampler2D>
+                        <source>grass_DF-surface</source>
+                        <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+                        <magfilter>LINEAR</magfilter>
+                    </sampler2D>
+                </newparam>
+                <technique sid="common">
+                    <blinn>
+                        <diffuse>
+                            <texture texture="grass_DF-sampler" texcoord="TEX0"></texture>
+                        </diffuse>
+                    </blinn>
+                </technique>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+    <library_geometries>
+        <geometry id="Mesh_Object_lib" name="Mesh_Object">
+            <mesh>
+                <source id="Mesh_Object_positions" name="position">
+                    <float_array id="Mesh_Object_positions_array" count="24">-0.0588 0.732456 0.080659 
+0.172916 0.341042 -0.113289 
+-0.297262 0.329646 0.280253 
+0.031313 0.610144 0 
+-0.43716 0.000283018 -0.523382 
+0.499786 0.000283018 0.523382 
+0.382185 -0.012456 -0.28845 
+-0.499786 -0.012456 0.449767 
+</float_array>
+                    <technique_common>
+                        <accessor count="8" offset="0" source="#Mesh_Object_positions_array" stride="3">
+                            <param name="X" type="float"></param>
+                            <param name="Y" type="float"></param>
+                            <param name="Z" type="float"></param>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="grass3_uv_uvmap" name="uvmap">
+                    <float_array id="grass3_uv_uvmap_array" count="20">0.2319 0.232 
+0.2395 0.7651 
+0.5023 0.5024 
+0.0023 0.0024 
+0.0023 1.0024 
+0.5023 0.5024 
+0.2395 0.7651 
+0.2319 0.232 
+0.0023 0.0024 
+0.0023 1.0024 
+</float_array>
+                    <technique_common>
+                        <accessor count="10" offset="0" source="#grass3_uv_uvmap_array" stride="2">
+                            <param name="S" type="float"></param>
+                            <param name="T" type="float"></param>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="Mesh_Object_vertices">
+                    <input semantic="POSITION" source="#Mesh_Object_positions"></input>
+                </vertices>
+                <polylist count="3" material="grass_DF_tga_Smoothing">
+                    <input offset="0" semantic="VERTEX" source="#Mesh_Object_vertices"></input>
+                    <input offset="1" semantic="TEXCOORD" source="#grass3_uv_uvmap" set="0"></input>
+                    <vcount>3 3 4 </vcount>
+                    <p>0 2 1 1 2 0 3 5 4 4 5 3 6 9 7 8 2 7 1 6 </p>
+                </polylist>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_controllers></library_controllers>
+    <library_visual_scenes>
+        <visual_scene id="VisualSceneNode" name="Scene">
+            <node id="Mesh_Object" name="Mesh_Object">
+                <instance_geometry url="#Mesh_Object_lib">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="grass_DF_tga_Smoothing" target="#grass_DF_tga_Smoothing">
+                                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"></bind_vertex_input>
+                            </instance_material>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#VisualSceneNode"></instance_visual_scene>
+    </scene>
+</COLLADA>

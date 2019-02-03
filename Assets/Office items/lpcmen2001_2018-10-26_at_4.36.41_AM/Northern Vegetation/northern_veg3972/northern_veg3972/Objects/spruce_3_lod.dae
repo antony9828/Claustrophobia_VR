@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <authoring_tool>Lightwave 9.5</authoring_tool>
+        </contributor>
+        <created>2009-10-03T21:21:21Z</created>
+        <modified>2009-10-03T21:21:21Z</modified>
+        <unit meter="1"></unit>
+        <up_axis>Y_UP</up_axis>
+    </asset>
+    <library_animations></library_animations>
+    <library_cameras></library_cameras>
+    <library_lights></library_lights>
+    <library_images>
+        <image id="tree_spruce_leaf_DF" name="tree_spruce_leaf_DF">
+            <init_from>file:///D:/3d/3d-daten/3D/3D-Objekte/swen/vegetation/Pack 1 Models/Objects/tree_spruce_leaf_DF.tga</init_from>
+        </image>
+        <image id="tree_spruce_trunk_DF" name="tree_spruce_trunk_DF">
+            <init_from>file:///D:/3d/3d-daten/3D/3D-Objekte/swen/vegetation/Pack 1 Models/Objects/tree_spruce_trunk_DF.tga</init_from>
+        </image>
+    </library_images>
+    <library_materials>
+        <material id="tree_spruce_trunk_DF_tga_Smoothing" name="tree_spruce_trunk_DF_tga_Smoothing">
+            <instance_effect url="#tree_spruce_trunk_DF_tga_Smoothing-fx"></instance_effect>
+        </material>
+        <material id="tree_spruce_leaf_DF_tga_Smoothing" name="tree_spruce_leaf_DF_tga_Smoothing">
+            <instance_effect url="#tree_spruce_leaf_DF_tga_Smoothing-fx"></instance_effect>
+        </material>
+    </library_materials>
+    <library_effects>
+        <effect id="tree_spruce_trunk_DF_tga_Smoothing-fx">
+            <profile_COMMON>
+                <newparam sid="tree_spruce_trunk_DF-surface">
+                    <surface type="2D">
+                        <init_from>tree_spruce_trunk_DF</init_from>
+                        <format>A8R8G8B8</format>
+                    </surface>
+                </newparam>
+                <newparam sid="tree_spruce_trunk_DF-sampler">
+                    <sampler2D>
+                        <source>tree_spruce_trunk_DF-surface</source>
+                        <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+                        <magfilter>LINEAR</magfilter>
+                    </sampler2D>
+                </newparam>
+                <technique sid="common">
+                    <blinn>
+                        <diffuse>
+                            <texture texture="tree_spruce_trunk_DF-sampler" texcoord="TEX0"></texture>
+                        </diffuse>
+                    </blinn>
+                </technique>
+            </profile_COMMON>
+        </effect>
+        <effect id="tree_spruce_leaf_DF_tga_Smoothing-fx">
+            <profile_COMMON>
+                <newparam sid="tree_spruce_leaf_DF-surface">
+                    <surface type="2D">
+                        <init_from>tree_spruce_leaf_DF</init_from>
+                        <format>A8R8G8B8</format>
+                    </surface>
+                </newparam>
+                <newparam sid="tree_spruce_leaf_DF-sampler">
+                    <sampler2D>
+                        <source>tree_spruce_leaf_DF-surface</source>
+                        <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+                        <magfilter>LINEAR</magfilter>
+                    </sampler2D>
+                </newparam>
+                <technique sid="common">
+                    <blinn>
+                        <diffuse>
+                            <texture texture="tree_spruce_leaf_DF-sampler" texcoord="TEX0"></texture>
+                        </diffuse>
+                    </blinn>
+                </technique>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+    <library_geometries>
+        <geometry id="Mesh_Object_lib" name="Mesh_Object">
+            <mesh>
+                <source id="Mesh_Object_positions" name="position">
+                    <float_array id="Mesh_Object_positions_array" count="171">-0.207422 0.411979 -0.031617 
+-0.135876 1.82763 -0.092336 
+-0.105757 0.432726 -0.144543 
+-0.180032 1.81461 0.040325 
+-0.228787 0.412129 0.062869 
+-0.108772 0.442405 0.161133 
+-0.079328 1.81934 0.122299 
+0.138347 0.359616 0.12283 
+0.102254 1.70309 0.018744 
+0.068493 0.466335 -0.124768 
+0.062756 1.69435 -0.118854 
+-0.120093 0.158896 -0.180784 
+0.080331 0.146351 -0.190723 
+-0.266787 0.117505 0.018342 
+-0.158384 0.15884 0.188152 
+-0.031098 0.158932 0.220703 
+0.165388 0.15662 0.165579 
+0.207941 0.15734 -0.041959 
+0.159698 0.400175 -0.034022 
+0.185277 0.247718 -0.079585 
+0.019307 -0.0410326 -0.345237 
+-0.292362 -0.0402248 -0.185059 
+0.25546 -0.0332258 0.313369 
+0.296934 -0.0410326 0.133752 
+0.28087 -0.0410326 -0.188275 
+0.237093 -0.0410326 -0.240147 
+0.169931 0.153525 -0.119231 
+0.570382 1.37095 0.08097 
+0.564602 1.36551 0.0886 
+0.561005 1.36008 0.079731 
+-0.025354 7.19891 0.079449 
+-0.07108 2.35927 0.080919 
+0.014168 7.21046 -0.032434 
+-0.077763 7.19658 -0.068145 
+-0.118582 7.20008 0.030877 
+0.397179 -0.0376471 -0.203399 
+-0.461483 -0.0331982 0.073355 
+-0.22778 -0.0401733 0.2761 
+0.045113 -0.0410336 0.386917 
+0.351056 -0.0410326 0.036568 
+0.328331 -0.0410326 -0.102374 
+-0.005301 5.44925 -3.02271 
+-0.003216 14.0351 -1.83494 
+0.000573 18.441 0.324529 
+0.000541 0.105746 0.306751 
+0.005307 5.44925 3.02271 
+-0.000535 0.105746 -0.306754 
+-0.000566 18.441 -0.324531 
+0.003223 14.0351 1.83494 
+3.02272 5.44925 -1e-06 
+1.83494 14.0351 -1e-06 
+-0.32453 18.441 0 
+-0.306753 0.105746 -1e-06 
+-3.02271 5.44925 -1e-06 
+0.306754 0.105746 -1e-06 
+0.324532 18.441 0 
+-1.83494 14.0351 -1e-06 
+</float_array>
+                    <technique_common>
+                        <accessor count="57" offset="0" source="#Mesh_Object_positions_array" stride="3">
+                            <param name="X" type="float"></param>
+                            <param name="Y" type="float"></param>
+                            <param name="Z" type="float"></param>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="spruce_3_lod_uv_uvmap" name="uvmap">
+                    <float_array id="spruce_3_lod_uv_uvmap_array" count="338">-0.2564 0.1912 
+-0.174 0.7542 
+-0.0489 0.1828 
+0.0687 0.1829 
+-0.0489 0.1828 
+-0.174 0.7542 
+0.047 0.749 
+0.3154 0.7509 
+0.2873 0.1951 
+0.0687 0.1829 
+0.047 0.749 
+0.2873 0.1951 
+0.3154 0.7509 
+0.7202 0.1617 
+0.3154 0.7509 
+0.8539 0.7059 
+0.7202 0.1617 
+0.7202 0.1617 
+0.8539 0.7059 
+1.1138 0.2048 
+0.8539 0.7059 
+1.1154 0.7004 
+1.1138 0.2048 
+1.3817 0.3049 
+1.1138 0.2048 
+1.1154 0.7004 
+1.3352 0.6956 
+1.1413 0.0756 
+1.1138 0.2048 
+1.398 0.131 
+1.3248 0.0809 
+-0.2605 0.0807 
+-0.2564 0.1912 
+-0.0489 0.1828 
+0.0128 0.064 
+0.0687 0.1829 
+0.0128 0.064 
+-0.0489 0.1828 
+0.0128 0.064 
+0.0687 0.1829 
+0.2873 0.1951 
+0.2486 0.0807 
+0.4349 0.0807 
+0.2486 0.0807 
+0.2873 0.1951 
+0.4349 0.0807 
+0.2873 0.1951 
+0.7202 0.1617 
+0.639 0.0786 
+0.7467 0.0809 
+0.7202 0.1617 
+0.9299 0.1781 
+0.9216 0.0801 
+1.1138 0.2048 
+0.967 0.1165 
+0.9299 0.1781 
+0.9299 0.1781 
+0.7202 0.1617 
+1.1138 0.2048 
+1.3248 0.0809 
+1.267 0 
+1.1413 0.0756 
+-0.2605 0.0807 
+-0.1371 0.0003 
+-0.3377 0 
+0.7467 0.0809 
+0.774 0 
+0.7148 0 
+1.0119 0.0785 
+1.0516 0 
+1.0037 0 
+0.2464 0.6444 
+0.2553 0.661 
+0.2642 0.6444 
+0.5588 0.3042 
+0.3167 0.3269 
+0.3408 0.4387 
+0.466 1.4407 
+0.5695 0.3042 
+0.466 1.4407 
+0.747 1.4405 
+0.7789 0.3347 
+0.6198 0.2947 
+0.747 1.4405 
+1.0699 0.3131 
+0.7914 0.339 
+0.747 1.4405 
+0.9721 1.4404 
+0.2074 1.4401 
+0.3408 0.4387 
+0.2319 0.3343 
+0.1163 0.3475 
+-0.0109 1.4404 
+0.2074 1.4401 
+0.1047 0.3427 
+0.2074 1.4401 
+0.466 1.4407 
+0.3408 0.4387 
+1.3594 0.0624 
+1.4235 0.0188 
+1.0351 0.0712 
+1.1323 0.0883 
+-0.011 0.0701 
+-0.1217 0.0239 
+-0.2386 0.0633 
+-0.2386 0.0633 
+-0.1933 0.1041 
+-0.011 0.0701 
+-0.2605 0.0807 
+0.0128 0.064 
+-0.1371 0.0003 
+0.0128 0.064 
+0.2486 0.0807 
+0.2394 0.0003 
+0.639 0.0786 
+0.6371 0 
+0.5021 0 
+0.4349 0.0807 
+0.639 0.0786 
+0.5021 0 
+0.7467 0.0809 
+0.9216 0.0801 
+0.845 0 
+0.774 0 
+0.9216 0.0801 
+0.937 0 
+0.845 0 
+1.0119 0.0785 
+1.1413 0.0756 
+1.0516 0 
+1.1413 0.0756 
+1.1876 0 
+1.0516 0 
+0.2486 0.0807 
+0.4349 0.0807 
+0.2394 0.0003 
+0.4349 0.0807 
+0.5021 0 
+0.2394 0.0003 
+0.967 0.1165 
+0.9216 0.0801 
+0.9299 0.1781 
+0.967 0.1165 
+1.1138 0.2048 
+1.1413 0.0756 
+1.0119 0.0785 
+1.3148 -0.0065 
+1.0896 0.0319 
+1.0351 0.0712 
+1.4235 0.0188 
+0.3408 0.4387 
+0.3864 0.3249 
+0.2319 0.3343 
+1 0.4818 
+1 1 
+0.5875 0.9035 
+0.3606 0.6736 
+0.5875 0.9035 
+1 1 
+1 0.4818 
+0.3606 0.6736 
+1 0.4818 
+1 1 
+0.5875 0.9035 
+0.3606 0.6736 
+0.5875 0.9035 
+1 1 
+1 0.4818 
+0.3606 0.6736 
+</float_array>
+                    <technique_common>
+                        <accessor count="169" offset="0" source="#spruce_3_lod_uv_uvmap_array" stride="2">
+                            <param name="S" type="float"></param>
+                            <param name="T" type="float"></param>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="Mesh_Object_vertices">
+                    <input semantic="POSITION" source="#Mesh_Object_positions"></input>
+                </vertices>
+                <polylist count="5" material="tree_spruce_leaf_DF_tga_Smoothing">
+                    <input offset="0" semantic="VERTEX" source="#Mesh_Object_vertices"></input>
+                    <input offset="1" semantic="TEXCOORD" source="#spruce_3_lod_uv_uvmap" set="0"></input>
+                    <vcount>3 4 4 4 4 </vcount>
+                    <p>27 73 28 72 29 71 41 156 42 155 43 154 44 153 45 160 46 159 47 158 48 157 49 164 50 163 51 162 52 161 53 168 54 167 55 166 56 165 </p>
+                </polylist>
+                <polylist count="45" material="tree_spruce_trunk_DF_tga_Smoothing">
+                    <input offset="0" semantic="VERTEX" source="#Mesh_Object_vertices"></input>
+                    <input offset="1" semantic="TEXCOORD" source="#spruce_3_lod_uv_uvmap" set="0"></input>
+                    <vcount>3 4 4 3 3 3 3 4 4 4 3 4 3 4 4 3 3 3 3 3 3 4 3 3 4 4 3 3 4 3 3 3 3 3 3 4 3 3 3 3 3 3 4 4 3 </vcount>
+                    <p>0 2 1 1 2 0 3 6 1 5 0 4 4 3 3 10 4 9 5 8 6 7 7 13 6 12 5 11 7 16 8 15 6 14 9 19 8 18 7 17 9 22 10 21 8 20 1 26 10 25 9 24 2 23 11 30 2 29 9 28 12 27 13 34 0 33 2 32 11 31 0 37 13 36 4 35 14 41 5 40 4 39 13 38 5 44 14 43 15 42 16 48 7 47 5 46 15 45 17 52 18 51 7 50 16 49 18 55 19 54 9 53 9 58 7 57 18 56 12 61 20 60 11 59 20 64 21 63 11 62 22 67 23 66 16 65 24 70 25 69 26 68 30 77 31 76 6 75 8 74 32 80 30 79 8 78 32 83 8 82 10 81 33 87 32 86 10 85 1 84 1 91 3 90 31 89 34 88 1 94 34 93 33 92 31 97 30 96 34 95 26 101 19 100 35 99 24 98 36 104 37 103 13 102 13 107 21 106 36 105 21 110 13 109 11 108 37 113 14 112 13 111 38 116 22 115 16 114 38 119 16 118 15 117 23 123 39 122 17 121 16 120 39 126 40 125 17 124 25 129 12 128 26 127 25 132 20 131 12 130 37 135 15 134 14 133 37 138 38 137 15 136 18 141 17 140 19 139 26 145 12 144 9 143 19 142 35 149 19 148 17 147 40 146 3 152 6 151 31 150 </p>
+                </polylist>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_controllers></library_controllers>
+    <library_visual_scenes>
+        <visual_scene id="VisualSceneNode" name="Scene">
+            <node id="Mesh_Object" name="Mesh_Object">
+                <instance_geometry url="#Mesh_Object_lib">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="tree_spruce_leaf_DF_tga_Smoothing" target="#tree_spruce_leaf_DF_tga_Smoothing">
+                                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"></bind_vertex_input>
+                            </instance_material>
+                            <instance_material symbol="tree_spruce_trunk_DF_tga_Smoothing" target="#tree_spruce_trunk_DF_tga_Smoothing">
+                                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"></bind_vertex_input>
+                            </instance_material>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#VisualSceneNode"></instance_visual_scene>
+    </scene>
+</COLLADA>
